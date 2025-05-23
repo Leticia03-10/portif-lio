@@ -1,0 +1,25 @@
+.cabecalho {
+    background-color: rgb(105, 30, 226);
+    margin: 10px;
+    color:rgb(243, 243, 243);
+
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+nav ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    background:  rgb(105, 30, 226);
+    margin: 20px 10px;
+    padding: 15;
+    border-radius: 15px;
+    justify-content: center;
+}
+nav ul a{
+    color:rgb(43, 226, 211)
+    text-decoration: none;
+    background-color: rgb(181, 129, 230);
+    padding: 5px 10px;
+}
