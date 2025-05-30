@@ -1,25 +1,31 @@
-.cabecalho {
+body {
+    margin: 0;
+    padding: 0%;
+}
+header {
     background-color: rgb(105, 30, 226);
-    margin: 10px;
-    color:rgb(243, 243, 243);
-
-    padding: 15px;
     text-align: center;
-    border-radius: 15px;
+    padding: 20px;
 }
-nav ul {
+.sobre{
     display: flex;
-    gap: 100px;
-    list-style: none;
-    background:  rgb(105, 30, 226);
-    margin: 20px 10px;
-    padding: 15;
+    background-color: rgb(126, 58, 235);
+    margin: 10px;
     border-radius: 15px;
-    justify-content: center;
 }
-nav ul a{
-    color:rgb(43, 226, 211)
-    text-decoration: none;
-    background-color: rgb(181, 129, 230);
-    padding: 5px 10px;
+img {
+    height: 200px;
+    width: 200px;
+    border: solid 3px rgb(128, 14, 173);
 }
+.sobre div{
+    margin: 10px;
+}
+.conteudo,footer, .projetoDeVida {
+    background-color: rgb(126, 58, 235);
+    border-radius: 15px ;
+    margin: 10px;
+    padding: 15px;
+}
+
+
